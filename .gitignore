@@ -1,0 +1,4 @@
+/backend/myvenv
+/backend/.build
+frontend/.nuxt
+frontend/node_modules
