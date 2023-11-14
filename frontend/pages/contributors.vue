@@ -18,10 +18,7 @@ const contributors = ref([]);
 import { format } from "date-fns";
 // const { data } = await useMyFetch("/api/contributors");
 // contributors = data.value;
-async function getContributors() {
-  const { data } = await useMyFetch("/api/contributors");
-  contributors.value = data.value;
-}
 
-onMounted(getContributors);
+const { data } = await useMyFetch("/api/contributors");
+contributors.value = data.value;
 </script>

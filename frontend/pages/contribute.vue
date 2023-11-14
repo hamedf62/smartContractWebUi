@@ -93,7 +93,7 @@ export default defineComponent({
     };
 
     const resetForm = () => {
-      // $event("reget_contract_status");
+      $event("reget_contract_status");
     };
 
     return {
